@@ -17,3 +17,5 @@ if __name__ == '__main__':
     print("{} - {} = {}".format(matrix, matrix2, matrix - matrix2))
     print("{} * {} = {}".format(2, matrix, 2 * matrix))
     print("{} * {} = {}".format(matrix, 2, matrix * 2))
+
+    print("zero = {}".format(Matrix.zero(2, 3)))
